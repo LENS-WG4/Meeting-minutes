@@ -1,0 +1,43 @@
+# LENS Meeting November 12th, 2024
+
+## Participants
+
+* Marina Ganeva, MLZ / FZJ
+* Anders Markvardsen, ISIS
+* Markus Janousch, PSI
+* Thomas Holm Rod, ESS
+* Sanghamitra Mukhopadhyay, ISIS (joined us later)
+
+# Agenda
+
+1. Progress with training / benchmark data
+1. Other updates, AoB
+
+# Progress with training / benchmark data
+
+* Marina had made upload available: https://iffcloud.fz-juelich.de/s/LbtibPW5SPrK3AY and will make the underpinning repo accessible for the members of this group
+* Anders and Nico from ESS had uploaded some data sets, which Marina will look at with her Post Doc / data steward for their usability. Marina will feed back to the other members with request for additional information / labeling if needed.
+* Thomas also received input from some SANS scientists who are interested in providing data. Wojtek from LU had also pointed to SASBDBD, https://www.sasbdb.org/search/?q=sans?: 
+> Particularly you may be interested in  [SASDPZ4](https://scripts.iucr.org/cgi-bin/cr.cgi?rm=sasbdb&sasbdbId=SASDPZ4), [SASDP25](https://scripts.iucr.org/cgi-bin/cr.cgi?rm=sasbdb&sasbdbId=SASDP25), [SASDP35](https://scripts.iucr.org/cgi-bin/cr.cgi?rm=sasbdb&sasbdbId=SASDP35), [SASDP45](https://scripts.iucr.org/cgi-bin/cr.cgi?rm=sasbdb&sasbdbId=SASDP45) and [SASDP55](https://scripts.iucr.org/cgi-bin/cr.cgi?rm=sasbdb&sasbdbId=SASDP55) , which are from a [BioSAS round robin paper](https://journals.iucr.org/d/issues/2022/11/00/cb5140/index.html). Thomas got the name of a contact person. 
+
+
+# Other updates / AoB
+
+* A new LEAPS Special Interest Group (SIG) has been established for AI & ML led by Paul Millar, DESY. The [LEAPS IT working group](https://leaps-wg3.desy.de/) meets every 2nd Wednesday of the month at 10AM. LENS people are encouraged to join, also in the SIGs. 
+* ESS had a successful demonstration of their data pipeline from proposal submission over data reduction to analysis and data management for the DMSC advisory panel. Also cosmic neutrons had been detected with an ESS detector and acquired using real instrument daq infrastructure. 
+* The Mantid NOBUGS satelitte meeting went well. Good international collaboration with important contributions from SNS on how to handle larger datasets.
+* Discussion at ISIS about updating the DAQ system and enable data streaming. They are organising a workshop at the beginning of next year with participation from other facilities. 
+* Data acquisition for muons at ISIS is moving towards event mode acquisition
+* The MDANSE summer school went well with lectures on MD simulations, DFT calculations, and spin dynamics simulations with TAKIN. 35 participants. Issues with VISA that could not handle the simultanous registration of all the participants. 
+* Discussions on (remote desktop) solutions for providing remote access to data processing
+** ISIS use their in house developed IDAaaS solution, ESS uses VISA which is a PaNOSC solution, PSI has their own in house developed solution, and MLZ is working on their own solution. 
+** As demonstrated at the MDANSE summer school it is important to stress test these solutions. There are many issues with getting these solutions up and running properly
+** We should explore if there is interest for a workshop / forum for sharing experiences with these solutions that are becoming crucial for accessing and processing data. 
+* There was a PaNOSC meeting last week, which most of us joined. 
+** It was agreed to aim for a PaNOSC EOSC node, which presumably will be led by ESRF
+** Current OSCARS projects and upcoming call were discussed. The EC seems to favor that facilities receiving funding in 1st round receives again in the 2nd round, but this still need to be sorted out. More information about PaNOSC and OSCARS can be found at https://www.panosc.eu and https://www.oscars-project.eu/
+* The 1st EOSC node is now in operation, namely the [EOSC EU Node](https://open-science-cloud.ec.europa.eu/), which is yet another remote desktop solutions. Among many things is has a service for data transfer included. It was launched at the recent [EOSC Symposium in Berlin](https://eosc.eu/symposium2024/). It is worth watching some of the [presentations]( https://eosc.eu/eosc-symposium-2024-outcomes-and-resources/) particularly [Deep dive into EOSC EU node](https://www.youtube.com/watch?v=j_5IvsxspA4&t=2227s) and the [launch](https://www.youtube.com/watch?v=j_5IvsxspA4&t=2227s). 
+
+
+
+
